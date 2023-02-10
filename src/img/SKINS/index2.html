@@ -1,0 +1,42 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SKINS</title>
+        <link rel="stylesheet" href="/dist/output.css" />
+        <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+        <script src=""></script>
+    </head>
+    <body class="bg-gradient-to-r from-cyan-500 to-blue-500 ...">
+        <div class="flex justify-center">
+            <h1
+                class="place-content-center w-1/2 bg-blue-500 rounded-3xl border border-spacing-3 p-4 text-center text-[70px] text-white"
+            >
+                SKIN DOWNLOAD
+            </h1>
+        </div>
+        <!-- fotosdeskinsk -->
+        <div class="">
+            <button id="downloadButton">
+                <img
+                    src="https://s.namemc.com/3d/skin/body.png?id=213f018101f6839f&model=classic&width=317&height=317"
+                    alt=""
+                />
+            </button>
+            <script>
+                document.getElementById('downloadButton').addEventListener('click', function () {
+                    const link = document.createElement('a');
+                    link.href =
+                        'https://media.discordapp.net/attachments/687004400845455421/1073587071630979072/2023_02_10_answers-we-cant-find---tr2-21321114.png?width=58&height=58';
+                    link.download =
+                        'https://media.discordapp.net/attachments/687004400845455421/1073587071630979072/2023_02_10_answers-we-cant-find---tr2-21321114.png?width=58&height=58';
+                    link.click();
+                });
+            </script>
+        </div>
+    </body>
+</html>
